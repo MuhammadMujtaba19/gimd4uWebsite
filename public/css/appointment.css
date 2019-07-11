@@ -1,0 +1,49 @@
+
+.container{
+	background: rgba(2, 63, 109,0.7);
+	border-radius:20px
+}
+body{
+	background: url("https://images.unsplash.com/photo-1524821742158-0a540d28a2bb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=f01a5bf0b752c9496e768840b8ce739c");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}.bg { 
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1524821742158-0a540d28a2bb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=f01a5bf0b752c9496e768840b8ce739c");
+
+}
+
+p{
+	font-size:1.5em;
+	color:white;
+	margin-left:15px;
+	margin-top:15px;
+	font-style:bold;}
+
+h1{
+	text-align: center;
+	color: rgba(2, 63, 109,1);
+	text-decoration: bold;
+	font-weight: 500;
+	margin-bottom:50px;
+	margin-top:50px;
+	text-decoration: underline;
+}
+.input-field {
+	/*background-color: rgba(163, 191, 212, 1);*/
+		color:auto;
+		font-style:oblique;
+		text-decoration:blink
+}
+.wrapper {
+    text-align: center;
+}
+.datepicker{
+	autoClose:true;
+}

@@ -1,0 +1,87 @@
+﻿<% include ../views/partials/header %> 
+
+
+<div class="jumbotron" >
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><img class="mySlides" src="../images/banner11.jpg"></div>
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><img class="mySlides" src="../images/banner22.jpg"></div>
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><img class="mySlides" src="../images/banner33.jpg"></div>
+  <button class="btn" id="mybtn" hidden="true" onClick="window.location.href='appointment.html'">Schedule An Appointment Now!</button>
+</div>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1> Welcome</h1>
+  </div>
+  <div class="jumbotron">
+    <h2>Introduction</h2>
+  </div>
+  <div id="hello2">
+    <p>This site is not intended to replace personal face-to-face contact with your clinician, but merely assist you as the patient in attending to your needs without having to telephone or visit your clinician`s office.<br>
+      We provide an advanced level of comprehensive services to meet the digestive health care needs of individuals in northern Lake county in Illinois . Our providers work together in a collaborative approach and use state-of-the-art technology to provide you with the highest level of patient care.  We provide comprehensive care including all endoscopic services (<a href="Colonoscopy.pdf" target="_blank"><strong>Colonoscopy</strong></a>, <a href="EGDinfo.pdf" target="_blank"><strong>Upper Endoscopy</strong></a>, <a href="ERCPINFO.pdf" target="_blank"><strong>ERCP</strong></a>, <a href="https://www.youtube.com/watch?v=v-H0rfJ6caY&feature=relmfu" target="_blank"><strong>Small Bowel Capsule Endoscopy</strong></a>) and consultative care.<br>
+      Service excellence and the patient experience remain the number one goal of our practice. 
+      Thank you for visiting our site and we look forward to serving you.</p>
+  </div>
+  <div id="myscroll"> </div>
+  <div class="jumbotron">
+    <h2>Mohammad H. Bawani, MD, FACG.<img src="../images/(563).JPG" id="hela"></h2>
+  </div>
+  <p>Dr.Mohammad Bawani has been in private practice since 1990. Dr. Bawani is a graduate of the Dow Medical College, University of Karachi, Pakistan. He completed his internship and residency in Internal Medicine at the University of Health Sciences/The Chicago Medical School as well as his fellowship in Gastroenterology. Dr. Bawani is board certified in Gastroenterology and Internal Medicine. For complete CV, click <a>here</a></p>
+  <p><strong>Office Address</strong><br>
+    1105 W. Park Ave. Suite #1<br>
+    Libertyville, IL 60048<br>
+    Phone:847-680-5880<br>
+  </p>
+  <br>
+  <p><strong>Affiliated Hospital</strong></p>
+  <p>Advocate Condell Medical Center<br>
+    801 South Milwaukee Ave.<br>
+    LibertyVille, IL 60048<br>
+  </p>
+  <div class="jumbotron">
+    <h2>Find Us on Google</h2>
+  </div>
+
+  <div class="mapouter">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1135.9109387014155!2d-87.97221957801534!3d42.281380680530084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f96df3ef1b459%3A0x3ce7ef388bc13ae7!2sMohammad+H.+Bawani%2C+MD.+%2F+Gastroenterologists+Ltd.!5e0!3m2!1sen!2s!4v1562750440220!5m2!1sen!2s" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style>
+</div>
+
+  <footer class="container">
+    <div class="container clearfix">
+        <p><span class="alignleft small">© 2018, Nouveau Solutions | MB - Designs . All Rights Reserved.</span>
+            <span class="alignright small">Connect with us&nbsp;&nbsp;&nbsp;
+                <a href="https://www.nouveau-solutions.com" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-facebook"></a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script>
+$('.closeonclick').on('click', function(){
+    $('.navbar-toggle').click(); //bootstrap 3.x by Richardx
+});
+</script>
+
+  
+<script type="text/javascript">(function($){
+  $(document).ready(function(){
+      $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+          event.preventDefault(); 
+          event.stopPropagation(); 
+          $(this).parent().siblings().removeClass('open');
+          $(this).parent().toggleClass('open');
+      });
+  });
+})(jQuery);</script>
+
+<script src="../js/googlemap.js"></script>
+<script src="../js/prac.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>s
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+</html>

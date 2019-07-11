@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Appointment Form | Gastroenterologists</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+</head>
+
+<body>
+
+
+<form>
+<h1>APPOINTMENT FORM</h1>
+		<div class=container>
+      <style type="text/css">p{font-size: 1em}</style>
+			<p>If you would like to arrange for a consultation appointment with Dr. M. Bawani, please fill out this Appointment Form and we will get back to you as soon as possible.</p>
+
+    <form class="col s12 col l6 col m6 col xs12">
+      <div class="row">
+        <div class="input-field col s12 col l12 col m12 col xs12">
+        <label for="date">Appointment Date</label>
+        <input id="date" class="datepicker" type="text" >
+    </div>
+    </div>
+    
+      <div class="row">
+        <div class="input-field col s12 col l6 col m6 col xs12">
+        <input id="first_name" type="text" class="validate" autocomplete="off">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s12 col l6 col m6 col xs12">
+          <input id="last_name" type="text" class="validate" autocomplete="off">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+  <!--     <div class="row">
+        <div class="input-field col s12 col m8 col xl12">
+          <input id="address" type="text" class="validate" autocomplete="off">
+          <label for="address">Home Address</label>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="input-field col s12 col l6 col m6 col xs12">
+          <input id="email" type="email"  autocomplete="off" class="validate">
+          <label for="email">Email</label>
+          
+        </div>
+			<div class="input-field col s12 col l6 col m6 col xs12">
+          <input id="number" type="number" class="validate" autocomplete="off">
+          <label for="number">Cell number</label>
+        </div>
+                
+      </div>
+    </form>
+    	<div class="row">
+				<div class="col-sm-12 wrapper">
+					<button type="button" class="cbtn btn btn-light btn-lg">Confirm</button>
+                </div>
+			</div>	
+		<hr>
+        </div>
+        </form>
+<script>
+$(document).ready(function(){
+    $('.datepicker').datepicker();
+	
+    $('.datepicker').showClearBtn=true;
+	
+  });
+
+  $(document).ready(function(){
+    $('.timepicker').timepicker();
+  });
+</script>
+        <link rel="stylesheet" href="../css/appointment.css">
+
+    
+		
+</body>
+</html>

@@ -1,0 +1,136 @@
+	h1,h2{
+		font-family: 'Slabo 27px', serif;
+	}
+	#hela{
+		width:300px;
+		height:450px;
+		border:hidden 0px black;
+		float:right
+	}
+	.navbar{
+		margin-bottom:0px
+	}
+	
+	.navbar a:hover{
+    	color: #00F;
+	}
+	.mySlides{		
+		padding-top:0px;
+		margin-top:0px;
+		width: 100%;
+		height: 550px;
+		vertical-align: middle;
+	}
+@media only screen and  (max-device-width : 319px) {
+	.mySlides{	
+		padding-top:40px;
+		margin-top:0px;
+		width: 100%;
+		height: 150px;
+		vertical-align: middle;
+	}
+		
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.mySlides{
+		padding-top:50px;
+		margin-top:0px;
+		width: 100%;
+    	height: 250px;
+	    vertical-align: middle;
+	}
+}
+@media only screen and (min-device-width : 481px) and (max-device-width : 760px) {
+	.mySlides{	
+		padding-top:50px;
+		margin-top:0px;
+		width: 100%;
+		height: 350px;
+		vertical-align: middle;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.mySlides{		
+		padding-top:0px;
+		margin-top:0px;
+		width: 100%;
+		height: 550px;
+		vertical-align: middle;
+	}
+}
+
+
+p{
+	font-size:2rem;
+	font-family:'Quicksand', monospace;
+	width:auto;}
+nav{
+	
+	padding-bottom:0px;
+	margin-bottom:0px;}
+	.jumbotron{
+	text-align:center;
+	color:#09C;
+	background-color:#FFF;
+	margin-bottom:0px;
+	padding:0px;
+	}
+	footer
+	{
+	border-top:solid 1px black;
+	font-size:10px
+	}
+	/*
+	.container {
+  position: relative;
+  width: 100%;
+}
+*/
+img {
+  width: 100%;
+  height:inherit
+}
+ .btn {
+	 size:auto;
+  position: relative;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ .btn:hover {
+  background-color: black;
+}
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.show-nav {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+  padding-top: 10px; 
+ }
+ .dropdown-submenu:hover {
+	 
+	 background-color:#F0F}
+.dropdown-submenu:active{
+	 
+	 background-color:#0F0}
+	 a:hover,
+	 a:focus {
+		 text-decoration: none;
+		 outline: none;
+	 }
+	 body{font-family: 'Roboto', sans-serif;}
